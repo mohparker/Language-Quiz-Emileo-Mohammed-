@@ -19,12 +19,18 @@ namespace Language_Game
 
       private void button1_Click(object sender, EventArgs e)
         {
-
+            AfrikaansLevel1 AL1 = new AfrikaansLevel1();
+            AL1.Show();
+            AfrikaansLevels AL = new AfrikaansLevels();
+            AL.Hide();
         }  
         
         private void button2_Click(object sender, EventArgs e)
         {
-
+            AfrikaansLevel2 AL2 = new AfrikaansLevel2();
+            AL2.Show();
+            AfrikaansLevels AL = new AfrikaansLevels();
+            AL.Hide();
         }
         
     }

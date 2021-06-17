@@ -52,6 +52,18 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="AfrikaansLevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfrikaansLevel1.Designer.cs">
+      <DependentUpon>AfrikaansLevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AfrikaansLevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfrikaansLevel2.Designer.cs">
+      <DependentUpon>AfrikaansLevel2.cs</DependentUpon>
+    </Compile>
     <Compile Include="AfrikaansLevels.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +75,12 @@
     </Compile>
     <Compile Include="EnglishLevel1.Designer.cs">
       <DependentUpon>EnglishLevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnglishLevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnglishLevel2.Designer.cs">
+      <DependentUpon>EnglishLevel2.cs</DependentUpon>
     </Compile>
     <Compile Include="EnglishLevels.cs">
       <SubType>Form</SubType>
@@ -87,11 +105,20 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AfrikaansLevel1.resx">
+      <DependentUpon>AfrikaansLevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AfrikaansLevel2.resx">
+      <DependentUpon>AfrikaansLevel2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AfrikaansLevels.resx">
       <DependentUpon>AfrikaansLevels.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EnglishLevel1.resx">
       <DependentUpon>EnglishLevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnglishLevel2.resx">
+      <DependentUpon>EnglishLevel2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EnglishLevels.resx">
       <DependentUpon>EnglishLevels.cs</DependentUpon>
@@ -110,6 +137,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -123,6 +151,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Photos\English.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Photos\English2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Photos\Language.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Photos\mindset.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Photos\words.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,7 +19,18 @@ namespace Language_Game
 
         private void button1_Click(object sender, EventArgs e)
         {
+            EnglishLevel1 EL1 = new EnglishLevel1();
+            EL1.Show();
+            EnglishLevels EL = new EnglishLevels();
+            EL.Hide();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            EnglishLevel2 EL2 = new EnglishLevel2();
+            EL2.Show();
+            EnglishLevels EL = new EnglishLevels();
+            EL.Hide();
         }
     }
 }
